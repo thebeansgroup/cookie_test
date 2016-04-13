@@ -1,0 +1,12 @@
+<h1>Test#index</h1>
+<p>Find me in app/views/test/index.html.erb</p>
+
+<script>
+function doOnce() {
+  document.cookie = "testCookie=Hi%20Tom; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  window.location = '/test/show';
+}
+
+</script>
+
+<button onclick="doOnce()">set cookie</button>
